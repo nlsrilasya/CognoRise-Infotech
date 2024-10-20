@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "AfacadFlux-Light";
+  src: url("./fonts/Afacad_Flux/AfacadFlux-Light.ttf");
+}
+
+@font-face {
+  font-family: "AfacadFlux-Regular";
+  src: url("./fonts/Afacad_Flux/AfacadFlux-Regular.ttf");
+}
+
+@font-face {
+  font-family: "AfacadFlux-Bold";
+  src: url("./fonts/Afacad_Flux/AfacadFlux-Bold.ttf");
+}
+
+@font-face {
+  font-family: "AfacadFlux-SemiBold";
+  src: url("./fonts/Afacad_Flux/AfacadFlux-SemiBold.ttf");
+}
+
+body {
+  background-color: #faf9f6;
+  font-family: "AfacadFlux-Regular", sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  background-color: #faf9f6;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(238,238,238,1);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(238,238,238,1);
+  box-shadow: 0px 5px 10px 2px rgba(238,238,238,1);
+  padding: 15px 0px;
+  position: sticky;
+  top: 0;
+}
+
+.nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  color: #e17575;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  font-family: "AfacadFlux-SemiBold", sans-serif;
+  text-decoration: none;
+}
+
+.nav li:hover {
+  background-color: mistyrose;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 20px;
+  display: flex;
+  padding: 30px;
+  margin: 50px;
+}
+
+.card h1 {
+  margin: 0;
+}
+
+.row-card {
+  flex-direction: row;
+}
+
+.column-card {
+  flex-direction: column;
+}
+
+.card:nth-child(odd) {
+  background-color: #e17575;
+  color: mistyrose;
+}
+
+.card:nth-child(even) {
+  background-color: mistyrose;
+  color: #e17575;
+}
+
+/*About Start*/
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro h1 {
+  font-family: "AfacadFlux-Bold", sans-serif;
+  font-size: 8rem;
+  margin: 0;
+}
+
+.intro h3 {
+  font-family: "AfacadFlux-Light", sans-serif;
+  font-size: 1.5rem;
+  padding: 0px 20px;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  margin-bottom: -30px;
+}
+
+.profile img {
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+/*About end*/
+
+/*Education start*/
+
+.edu-detail {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+}
+
+.edu-section p {
+  font-size: 20px;
+  margin: 0;
+  padding-left: 15px;
+  font-size: 1.5rem;
+}
+
+.edu-section img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+/*Education end*/
+
+/*Projects start*/
+
+.projects {
+  font-size: 1.5rem;
+}
+
+.project-details {
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
+
+/*Projects end*/
+
+/*Skills start*/
+
+.skills {
+  font-size: 1.5rem;
+}
+
+/*Skills end*/
+
+/*Experience start*/
+
+.achievements {
+  font-size: 1.5rem;
+}
+
+.achievement-details {
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
+
+/*Experience end*/
+
+/*Experience start*/
+
+.experience {
+  font-size: 1.5rem;
+}
+
+.experience-details {
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
+
+/*Experience end*/
+
+/*Contact start*/
+
+.contact {
+  font-size: 1.5rem;
+}
+
+.contact-details a {
+  color: #e17575;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  color: #dea8a8;
+  cursor: pointer;
+}
+
+/*Contact end*/

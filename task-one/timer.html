@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="./resources/timer.css" />
+</head>
+
+<body>
+  <form>
+    <div class="input-group">
+      <label for="date">Select a date:</label>
+      <input type="date" id="inputDate" name="date" />
+    </div>
+    <div class="input-group">
+      <label for="time">Select a time:</label>
+      <input type="time" id="inputTime" name="time" />
+    </div>
+    <button type="button" class="btn btn__start" onclick="startTimer()">Start Countdown</button>
+    <button type="button" class="btn btn__reset hide" onclick="resetTimer()">Reset Timer</button>
+  </form>
+  <h1></h1>
+  <script type="text/javascript" src="./resources/timer.js"></script>
+</body>
+
+</html>

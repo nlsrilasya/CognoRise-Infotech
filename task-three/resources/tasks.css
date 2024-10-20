@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "AfacadFlux-Regular";
+  src: url("./fonts/Afacad_Flux/AfacadFlux-Regular.ttf");
+}
+
+html, body {
+  font-family: "AfacadFlux-Regular", Arial, sans-serif;
+  margin: 20px;
+  height: 100%;
+}
+
+.todo-container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.todo-container__inputs {
+  border-right: 1px solid #b8b8b8;
+  padding: 20px;
+  flex: 1;
+}
+
+.todo-container__tasks {
+  padding: 20px;
+  flex: 1;
+}
+
+#tasks-input {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 20px;
+  width: 80%;
+}
+
+#tasks-list {
+  list-style-type: none;
+}
+
+#add-todo-btn {
+  padding: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 0px;
+}
+
+#add-todo-btn:hover {
+  background-color: #218838;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
+
+.todo-actions button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.todo-actions button:hover {
+  background-color: #c82333;
+  cursor: pointer;
+}
